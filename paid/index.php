@@ -14,7 +14,7 @@
 // Configurações
 // Para serviço .NET no Docker no mesmo servidor:
 // Opção 1: Se o container expõe uma porta (ex: 5000)
-define('ENDPOINT_DESTINO', 'http://localhost:7154/api/Pix/callback');
+define('ENDPOINT_DESTINO', 'https://localhost:7154/api/Pix/callback');
 
 // Opção 2: Se usa nome do container na rede Docker
 // define('ENDPOINT_DESTINO', 'http://nome-container-dotnet:80/api/webhook');
